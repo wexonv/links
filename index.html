@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>wexon</title>
@@ -10,73 +10,62 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
     <!-- Core theme CSS -->
     <link rel="stylesheet" href="style.css">
-</head>
+  </head>
 
-<body>
-<!-- Parallax Pixel Background Animation -->
-<section class="animated-background">
-    <div id="stars1"></div>
-    <div id="stars2"></div>
-    <div id="stars3"></div>
-</section>
-<!-- End of Parallax Pixel Background Animation -->
+  <body>
+    <!-- Parallax Pixel Background Animation -->
+    <section class="animated-background">
+      <div id="stars1"></div>
+      <div id="stars2"></div>
+      <div id="stars3"></div>
+    </section>
+    <!-- End of Parallax Pixel Background Animation -->
 
-<a id="profilePicture" href="#popup">
-    <img src="pfp.gif" alt="Profile Picture">
-</a>
+    <a id="profilePicture" href="#popup">
+      <img src="pfp.gif" alt="Profile Picture">
+    </a>
 
-<div class="overlay" id="popup">
-    <div class="popup">
+    <div class="overlay" id="popup">
+      <div class="popup">
         <div class="popup-photo">
-            <a href="pfp.gif" target="_blank">
-                <img src="pfp.gif" alt="Profile Picture">
-            </a>
+          <a href="pfp.gif" target="_blank">
+            <img src="pfp.gif" alt="Profile Picture">
+          </a>
         </div>
         <div class="popup-quote">
-            When you get up, think more about good things!
+          When you get up, think more about good things!
         </div>
         <a class="popup-close" onclick="history.back()">&times;</a>
+      </div>
     </div>
-</div>
 
-<div id="userName">
-    @wexon
-</div>
-<div id="links">
-    <br>
-    <div id="userName"> Social Media </div> <br> <br>
-    <a class="link" href="https://github.com/wexonv" target="_blank">
-        <i class="fab fa-github">&nbsp;</i> Github
-    </a>
-    <a class="link" href="https://discordapp.com/users/821717399732486146" target="_blank">
-        <i class="fab fa-discord">&nbsp;</i> Discord
-    </a>
-    <a class="link" href="https://www.instagram.com/wexonsk/" target="_blank">
-        <i class="fab fa-instagram">&nbsp;</i> Instagram
-    </a>
-    <br>
     <div id="userName">
-        Projects <br> <br>
+      @wexon
     </div>
-    <a class="link" href="https://styz.online" target="_blank">
+    <div id="links">
+      <br>  <div id="userName"> Social Media </div> <br> <br>
+      <a class="link" href="https://github.com/wexonv" target="_blank">
+        <i class="fab fa-github">&nbsp;</i>  Github
+      </a>
+      <a class="link" href="https://discordapp.com/users/821717399732486146" target="_blank">
+        <i class="fab fa-discord">&nbsp;</i>  Discord
+      </a>
+      <a class="link" href="https://www.instagram.com/wexonsk/" target="_blank">
+        <i class="fab fa-instagram">&nbsp;</i>  Instagram
+      </a>
+<br>
+      <div id="userName">
+        Projects <br> <br>
+      </div>
+      <a class="link" href="https://styz.online" target="_blank">
         <i class="">&nbsp;</i>Styz
-    </a>
+      </a>
+      
+    </div>
 
-</div>
-
-<div id="hashtag">
-    #BeHappy❤
-</div>
-<!-- Zaktualizowany kod dla odtwarzania muzyki -->
-<audio id="music" src="music.mp3" autoplay loop style="display:none;"></audio>
-<button onclick="playMusic()">Play Music</button>
-
-<script>
-    function playMusic() {
-        var audio = document.getElementById("music");
-        audio.play();
-    }
-</script>
-</body>
+    <div id="hashtag">
+      #BeHappy❤
+    </div>
+    <audio src="music.mp3" autoplay loop></audio>
+  </body>
 </html>
-
